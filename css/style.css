@@ -60,7 +60,7 @@ a:hover {
 }
 /*/ IDS /*/
 #proudimg {
-	width: 220px;
+	width: 290px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -80,6 +80,7 @@ a:hover {
 #moreinfo {
 	color: white;
 	background-color: #11149ec4;
+	
 }
 #moreinfo:hover {
 	color: white;
@@ -237,4 +238,17 @@ a:hover {
 
 .custom-shape-divider-bottom-1619031611 .shape-fill {
     fill: #11149EC4;
+}
+
+/* Version 2 updates */
+
+body {
+	background-color: #eeeeee;
+}
+
+.bigoof {
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
