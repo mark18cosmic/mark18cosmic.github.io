@@ -267,3 +267,7 @@ body {
 .column {
 	display: flex;
 }
+
+.colums {
+	display: flex;
+}
