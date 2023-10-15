@@ -252,3 +252,18 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+#image-Tools img {
+	width: 150px;
+	height: 145px;
+	object-fit: cover;
+}
+
+.navbar {
+	justify-content: center;
+	display: flex;
+}
+
+.column {
+	display: flex;
+}
