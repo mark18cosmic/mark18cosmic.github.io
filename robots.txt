@@ -1,5 +1,0 @@
-User-Agent: *
-Allow: /
-
-Sitemap: https://mark18cosmic.github.io/4813993_4.xml
-

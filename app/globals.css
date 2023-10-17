@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+    color: black;
+    background-color: white;
+}
+
+::-moz-selection {
+    color: black;
+    background-color: white;
+}
+
+br {
+    color: white;
+    height: 2px;
+    width: 40px;
+}

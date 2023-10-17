@@ -1,2 +1,3 @@
-# mark18cosmic.github.io
-portfolio
+## Portfolio website
+
+Made with nextjs
