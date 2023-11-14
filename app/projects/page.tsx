@@ -13,8 +13,8 @@ export default function Skills() {
   return (
     <main className="min-h-screen ">
       <h1 className="font-extrabold mt-12 md:mt-6 text-center text-5xl">Coming Soon</h1>
-      <div className="h-[80vh] flex items-center text-center justify-center">
-        <Image src={soon} alt="" />
+      <div className="flex items-center text-center justify-center mt-1">
+        <p>If you want to see the projects I'm currently working on check github or contact me.</p>
       </div>
     </main>
 

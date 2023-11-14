@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import svg from '@/public/images/MOSHED-2023-10-16-23-26-6.gif'
+import svg from '@/public/images/ryunosuke-kikuno-zE-MrTmjzd4-unsplash.jpg'
 
 const MainPage = () => {
   return (
@@ -40,7 +40,7 @@ const MainPage = () => {
             </div>
           </div>
           <div className='w-1/2 h-full flex-col ml-16 mb-16 mr-24'>
-            <Image src={svg} height={650} width={650} alt='' />
+            <Image src={svg} height={650} width={650} alt='' className='rounded-xl'/>
           </div>
         </div>
       </div>
