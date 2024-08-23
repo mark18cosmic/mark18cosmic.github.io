@@ -14,7 +14,6 @@ const skillsCard = () => {
 }
 
 const SkillsContent = () => {
-  alert("Redesign Under Construction")
   return (
     <>
       <main className='min-h-screen'>
@@ -23,7 +22,7 @@ const SkillsContent = () => {
             <h1 className='font-extrabold text-4xl underline underline-offset-[15px]'>My skills</h1>
           </div>
           <div>
-
+              Under construction
           </div>
         </div>
       </main>
