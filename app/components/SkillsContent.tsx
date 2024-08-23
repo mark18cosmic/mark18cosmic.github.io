@@ -7,9 +7,33 @@ import { TbBrandNextjs, TbBrandTailwind, TbBrandBulma, TbBrandTypescript, TbBran
 import { SiExpress, SiMongodb, SiPostgresql, SiSqlite, SiNginx, SiApache, SiArchlinux, SiGnubash } from "react-icons/si"
 import { Tooltip } from "@nextui-org/react";
 
+const skillsCard = () => {
+  <div className='bg-zinc-900 text-zinc-50 rounded-xl p-5 border border-zinc-950 shadow-lg'>
+
+  </div>
+}
+
 const SkillsContent = () => {
+  alert("Redesign Under Construction")
   return (
-    <main className='min-h-screen'>
+    <>
+      <main className='min-h-screen'>
+        <div>
+          <div className='flex text-center justify-center items-center mt-3 md:mt-6'>
+            <h1 className='font-extrabold text-4xl underline underline-offset-[15px]'>My skills</h1>
+          </div>
+          <div>
+
+          </div>
+        </div>
+      </main>
+    </>
+  )
+}
+
+export default SkillsContent
+
+{/* <main className='min-h-screen'>
       <div className='flex text-center justify-center mt-5'>
         <h1 className='font-extrabold text-4xl underline underline-offset-[15px]'>My skills</h1>
       </div>
@@ -63,8 +87,4 @@ const SkillsContent = () => {
           </div>
         </div>
       </div>
-    </main>
-  )
-}
-
-export default SkillsContent
+    </main> */}

@@ -2,43 +2,21 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
+
 
 const NavBar = () => {
-  const router = useRouter()
   return (
-    <header className="w-full h-18 mt-4 flex shadow-xl rounded-full bg-zinc-950/2">
-      <div className="flex bg-black/5 justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Link
-          href="/"
-          className='ml-4'
-        >
-          <h1 className='text-white text-xl font-bold'>Kaish</h1>
-        </Link>
-        <div className="mr-8">
-          <ul className="">
-            <Link
-              href="/skills"
-              className={`${usePathname() == "/skills"
-                ? "border-b text-gray-200 border-gray-200 font-semibold"
-                : ""
-                } ml-7 text-lg hover:text-gray-200 hover:border-b hover:border-gray-200`}
-            >
-              Skills
-            </Link>
-            <Link
-              href="/projects"
-              className={`${usePathname() == "/projects"
-                ? "border-b text-gray-200 border-gray-200 font-semibold"
-                : ""
-                } ml-7 text-lg hover:text-gray-200 hover:border-b hover:border-gray-200`}
-            >
-              Projects
-            </Link>
-          </ul>
+    <>
+      <div className='flex flex-row items-center justify-between mx-4 md:mx-16 my-4'>
+        <div>
+          <Link href={'/'} className='font-extrabold text-xl text-zinc-50 hover:underline'>Kaish</Link>
+        </div>
+        <div className='flex gap-2 md:gap-4 font-semibold'>
+            <Link href={'/skills'} className='hover:underline'>Skills</Link>
+            <Link href={'projects'} className='hover:underline'>Projects</Link>
         </div>
       </div>
-    </header>
+    </>
   );
 }
 
