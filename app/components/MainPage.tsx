@@ -27,6 +27,8 @@ const MainPage = () => {
                   1000,
                   'UI/UX Designer',
                   1000,
+                  'Entrepreneur',
+                  1000,
                 ]}
                 wrapper="div"
                 speed={50}
@@ -36,7 +38,7 @@ const MainPage = () => {
             </h2>
             <p className=' text-md text-gray-400 antialiased text-center md:text-left font-medium leading-relaxed'>As a seasoned developer with a penchant for designing intuitive and user-friendly web applications, I have been utilizing the versatile capabilities of the MERN stack (MongoDB, Express.js, React.js, and Node.js) to craft customized digital experiences for various clients. I believe that with hard work, dedication, and continuous learning, there is no limit to what I can achieve. So let's connect and discuss any project ideas you have!</p>
             <div className='mt-10 mb-5 self-center md:self-start'>
-              <Link href='mailto:kaish018@gmail.com' className='p-3 bg-white text-black justify-center rounded-2xl font-bold hover:bg-white/60'>Contact me</Link>
+              <Link href='mailto:kaish018@gmail.com' className='p-3 bg-white text-black justify-center rounded-xl font-bold hover:bg-white/60'>Contact me</Link>
             </div>
           </div>
           <div className='w-1/2 h-full flex-col ml-16 mb-16 mr-24'>

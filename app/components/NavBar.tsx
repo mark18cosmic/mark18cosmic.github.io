@@ -3,9 +3,6 @@
 import React from 'react'
 import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
-import Image from 'next/image'
-
-import png from '@/public/images/Private GIF.gif'
 
 const NavBar = () => {
   const router = useRouter()
@@ -16,7 +13,7 @@ const NavBar = () => {
           href="/"
           className='ml-4'
         >
-          <h1 className='text-white font-bold'>Kaish</h1>
+          <h1 className='text-white text-xl font-bold'>Kaish</h1>
         </Link>
         <div className="mr-8">
           <ul className="">
