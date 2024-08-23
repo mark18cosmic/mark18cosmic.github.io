@@ -16,7 +16,7 @@ const NavBar = () => {
           href="/"
           className='ml-4'
         >
-          <Image src={png} width={50} height={50} alt='' />
+          <h1 className='text-white font-bold'>Kaish</h1>
         </Link>
         <div className="mr-8">
           <ul className="">
