@@ -14,7 +14,7 @@ const SkillsContent = () => {
         <h1 className='font-extrabold text-4xl underline underline-offset-[15px]'>My skills</h1>
       </div>
       <div className='grid md:grid-cols-3 text-center max-w-5xl mx-auto mt-10 gap-12'>
-        <div className='bg-zinc-950 p-8 rounded-xl border border-zinc-950 shadow-lg px-4 '>
+        <div className='bg-zinc-950 p-8 rounded-xl border border-zinc-900 shadow-lg px-4 '>
           <h2 className='font-bold text-2xl mt-1'>Front-End</h2>
           <div className='w-full bg-white h-[2px] mt-1'></div>
           <div className='mt-8 flex justify-center'>
@@ -30,7 +30,7 @@ const SkillsContent = () => {
             </ul>
           </div>
         </div>
-        <div className='bg-zinc-950 p-8 rounded-xl border border-zinc-950 shadow-lg px-4 '>
+        <div className='bg-zinc-950 p-8 rounded-xl border border-zinc-900 shadow-lg px-4 '>
           <h2 className='font-bold  text-2xl mt-1'>Back-End</h2>
           <div className='w-full bg-white h-[2px] mt-1'></div>
           <div className='mt-8 flex justify-center'>
@@ -46,7 +46,7 @@ const SkillsContent = () => {
             </ul>
           </div>
         </div>
-        <div className='bg-zinc-950 p-8 rounded-xl border border-zinc-950 shadow-lg px-4 '>
+        <div className='bg-zinc-950 p-8 rounded-xl border border-zinc-900 shadow-lg px-4 '>
           <h2 className='font-bold text-2xl mt-1'>Tools</h2>
           <div className='w-full bg-white h-[2px] mt-1'></div>
           <div className="mt-8 flex justify-center">
