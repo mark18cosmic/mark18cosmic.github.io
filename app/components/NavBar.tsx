@@ -7,7 +7,7 @@ import { usePathname, useRouter } from 'next/navigation'
 const NavBar = () => {
   const router = useRouter()
   return (
-    <header className="w-full h-18 mt-2 flex shadow-xl rounded-full bg-zinc-950/2">
+    <header className="w-full h-18 mt-4 flex shadow-xl rounded-full bg-zinc-950/2">
       <div className="flex bg-black/5 justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link
           href="/"
