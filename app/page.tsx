@@ -1,9 +1,11 @@
 import MainPage from "./components/MainPage"
+import HomeSections from "./components/HomeSections"
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <MainPage />
+      <HomeSections />
     </main>
   )
 }
